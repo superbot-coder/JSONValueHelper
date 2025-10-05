@@ -1,0 +1,24 @@
+{
+    "user": {
+        "id": 12345,
+        "username": "alina",
+        "email": "alina@mf.com",
+        "profile": {
+            "firstName": "Alina",
+            "lastName": "Nabieva",
+            "age": 29
+        },
+        "friends": [
+            {
+                "id": 54321,
+                "username": "xenia"
+            },
+            {
+                "id": 98765,
+                "username": "oxs"
+            }
+        ]
+    },
+	"users_count": 1
+	
+}
