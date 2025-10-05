@@ -16,7 +16,7 @@ type
   public
     function GetValueHlpr<T>(const ValueName: string; RaiseUp: Boolean = true): T;
     function GetValueFromTreeHlpr<T>(const Path: string; const Separator: char; RaiseUp: Boolean = true): T;
-    // эта часть будет доделана позже
+    // СЌС‚Р° С‡Р°СЃС‚СЊ Р±СѓРґРµС‚ РґРѕРґРµР»Р°РЅР° РїРѕР·Р¶Рµ
     // procedure SetValueHlpr<T>(const ValueName: string; const Value: T; RaiseUp: boolean = true);
     // procedure SetValueTreeHlpr<T>(const Path: string; const Value: T; RaiseUp: boolean = true);
   end;
