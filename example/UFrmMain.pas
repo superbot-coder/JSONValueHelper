@@ -81,30 +81,37 @@ var
   A: TArray<string>;
   path: string;
 begin
+
+
+  if Assigned(FJSON.FindValue('user\profile\age')) then
+    show('FindValue = true')
+  else
+    show('FindValue = false');
+
   //
   show('get string value fom path ' + edValueName.Text + ': ' +
-         FJSON.GetValueFromTreeHlpr<String>(edValueName.Text, '\'));
+         FJSON.GetValueTreeHlpr<String>(edValueName.Text, '\'));
 
   // Чтение значение integer как integer
   show('get integer value as integer fom path: "user\profile\age": ' +
-       FJSON.GetValueFromTreeHlpr<integer>('user\profile\age', '\').ToString);
+       FJSON.GetValueTreeHlpr<integer>('user\profile\age', '\').ToString);
 
   // Чтение значения integer как string
   show('get integer value as string fom path: "user\profile\age": ' +
-       FJSON.GetValueFromTreeHlpr<String>('user\profile\age', '\'));
+       FJSON.GetValueTreeHlpr<String>('user\profile\age', '\'));
 
   // Чтение объекта как TJSONObject
-  var profile := FJSON.GetValueFromTreeHlpr<TJSONObject>('user\profile', '\');
+  var profile := FJSON.GetValueTreeHlpr<TJSONObject>('user\profile', '\');
   if Assigned(profile) then
     show('get JSONObject value as toString fom path: "user\profile": '+ profile.ToString);
 
   // Чтение массива как TJSONArray
-  var friends := FJSON.GetValueFromTreeHlpr<TJSONArray>('user\friends', '\');
+  var friends := FJSON.GetValueTreeHlpr<TJSONArray>('user\friends', '\');
   if Assigned(friends) then
    show('get array form path: "user\friends": ' + friends.ToString);
 
   // Чтение массива как TJSONObject получим исключение
-  var friends_error := FJSON.GetValueFromTreeHlpr<TJSONObject>('user\friends', '\');
+  var friends_error := FJSON.GetValueTreeHlpr<TJSONObject>('user\friends', '\');
   if Assigned(friends_error) then
    show('get array form path: "user\friends": ' + friends_error.ToString);
 

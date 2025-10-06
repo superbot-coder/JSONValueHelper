@@ -15,7 +15,7 @@ type
       EMsgValPathEmpty = 'Error: The %s is Empty';
   public
     function GetValueHlpr<T>(const ValueName: string; RaiseUp: Boolean = true): T;
-    function GetValueFromTreeHlpr<T>(const Path: string; const Separator: char; RaiseUp: Boolean = true): T;
+    function GetValueTreeHlpr<T>(const Path: string; const Separator: char; RaiseUp: Boolean = true): T;
     // эта часть будет доделана позже
     // procedure SetValueHlpr<T>(const ValueName: string; const Value: T; RaiseUp: boolean = true);
     // procedure SetValueTreeHlpr<T>(const Path: string; const Value: T; RaiseUp: boolean = true);
@@ -51,7 +51,7 @@ begin
 end;
   *)
 
-function TJSONValueHelper.GetValueFromTreeHlpr<T>(const Path: string;
+function TJSONValueHelper.GetValueTreeHlpr<T>(const Path: string;
   const Separator: char; RaiseUp: Boolean = true): T;
 var
   ArPath : TArray<string>;
