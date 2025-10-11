@@ -8,19 +8,22 @@ File_5=TSourceModule,'c:\program files (x86)\embarcadero\studio\23.0\SOURCE\VCL\
 File_6=TSourceModule,'c:\program files (x86)\embarcadero\studio\23.0\SOURCE\VCL\Vcl.Styles.pas',0,1,3598,1,3617,0,0,,
 File_7=TSourceModule,'C:\PROJECT+\COMPONENTS\RESTRequest4Delphi\src\RESTRequest4D.Request.Client.pas',0,1,367,13,381,0,0,,
 File_8=TSourceModule,'C:\PROJECT+\COMPONENTS\RESTRequest4Delphi\src\RESTRequest4D.pas',0,1,52,32,75,0,0,,
-File_9=TSourceModule,'c:\program files (x86)\embarcadero\studio\23.0\source\rtl\common\System.JSON.pas',0,1,1590,18,1609,0,0,,
-File_10=TSourceModule,'c:\program files (x86)\embarcadero\studio\23.0\SOURCE\RTL\SYS\System.SysUtils.pas',0,1,24157,39,24176,0,0,,
-File_11=TSourceModule,'c:\program files (x86)\embarcadero\studio\23.0\SOURCE\RTL\SYS\System.pas',0,1,1,1,12,0,0,,
-File_12=TSourceModule,'C:\PROJECT+\COMPONENTS\RESTRequest4Delphi\src\RESTRequest4D.Request.Contract.pas',0,1,25,25,68,0,0,,
-File_13=TSourceModule,'c:\program files (x86)\embarcadero\studio\23.0\source\data\rest\REST.Client.pas',0,1,1387,1,1406,0,0,,
-File_14=TSourceModule,'C:\PROJECT+\COMPONENTS\RESTRequest4Delphi\src\RESTRequest4D.Response.Contract.pas',0,1,7,1,13,0,0,,
+File_9=TSourceModule,'c:\program files (x86)\embarcadero\studio\23.0\SOURCE\RTL\SYS\System.SysUtils.pas',0,1,24157,39,24176,0,0,,
+File_10=TSourceModule,'c:\program files (x86)\embarcadero\studio\23.0\SOURCE\RTL\SYS\System.pas',0,1,1,1,12,0,0,,
+File_11=TSourceModule,'C:\PROJECT+\COMPONENTS\RESTRequest4Delphi\src\RESTRequest4D.Request.Contract.pas',0,1,25,25,68,0,0,,
+File_12=TSourceModule,'c:\program files (x86)\embarcadero\studio\23.0\source\data\rest\REST.Client.pas',0,1,1387,1,1406,0,0,,
+File_13=TSourceModule,'C:\PROJECT+\COMPONENTS\RESTRequest4Delphi\src\RESTRequest4D.Response.Contract.pas',0,1,7,1,13,0,0,,
 
 [Modules]
-Module0=C:\PROJECT+\GitHub\JSONValueHelper\example\UFrmMain.pas
-Module1=C:\PROJECT+\GitHub\JSONValueHelper\example\JSONObjectHelper.dproj
-Module2=C:\PROJECT+\GitHub\JSONValueHelper\example\JSONHelper.pas
-Count=3
+Module0=C:\PROJECT+\GitHub\JSONValueHelper\example\JSONHelper.pas
+Module1=C:\PROJECT+\GitHub\JSONValueHelper\example\UFrmMain.pas
+Module2=C:\PROJECT+\GitHub\JSONValueHelper\example\JSONObjectHelper.dproj
+Module3=c:\program files (x86)\embarcadero\studio\23.0\source\rtl\common\System.JSON.pas
+Count=4
 EditWindowCount=1
+
+[C:\PROJECT+\GitHub\JSONValueHelper\example\JSONHelper.pas]
+ModuleType=TSourceModule
 
 [C:\PROJECT+\GitHub\JSONValueHelper\example\UFrmMain.pas]
 ModuleType=TSourceModule
@@ -28,16 +31,17 @@ ModuleType=TSourceModule
 [C:\PROJECT+\GitHub\JSONValueHelper\example\JSONObjectHelper.dproj]
 ModuleType=TBaseProject
 
-[C:\PROJECT+\GitHub\JSONValueHelper\example\JSONHelper.pas]
+[c:\program files (x86)\embarcadero\studio\23.0\source\rtl\common\System.JSON.pas]
 ModuleType=TSourceModule
 
 [EditWindow0]
-ViewCount=4
-CurrentEditView=C:\PROJECT+\GitHub\JSONValueHelper\example\UFrmMain.pas
+ViewCount=5
+CurrentEditView=C:\PROJECT+\GitHub\JSONValueHelper\example\JSONHelper.pas
 View0=0
 View1=1
 View2=2
 View3=3
+View4=4
 PercentageSizes=1
 Create=1
 Visible=1
@@ -60,17 +64,22 @@ BorlandEditorCodeExplorer=BorlandEditorCodeExplorer@EditWindow0
 TopPanelSize=0
 LeftPanelSize=1896
 LeftPanelClients=PropertyInspector,DockSite3
-LeftPanelData=00000800010100000000620F00000000000001680700000000000001000000005C0E000009000000446F636B53697465330100000000581B00001100000050726F7065727479496E73706563746F72FFFFFFFF
+LeftPanelData=000008000101000000008E1200000000000001680700000000000001000000005C0E000009000000446F636B53697465330100000000FC2000001100000050726F7065727479496E73706563746F72FFFFFFFF
 RightPanelSize=0
-BottomPanelSize=1593
-BottomPanelClients=MessageView,DockSite1
-BottomPanelData=0000080001020100000009000000446F636B5369746531DE440000000000000239060000000000000100000000DE4400000F0000004D65737361676556696577466F726DFFFFFFFF
+BottomPanelSize=0
+BottomPanelClients=DockSite1
+BottomPanelData=0000080001000100000009000000446F636B5369746531DE44000000000000003906000000000000FFFFFFFF
 BottomMiddlePanelSize=0
 BottomMiddlePanelClients=DockSite0,GraphDrawingModel
 BottomMiddelPanelData=0000080001020200000009000000446F636B536974653010000000477261706844726177696E67566965779F1D00000000000002F206000000000000FFFFFFFF
+TabDockBottomClients=MessageView=0
 TabDockRightClients=DockSite2=0,DockSite4=1
 
 [View0]
+CustomEditViewType=TOTACustomEditView
+OTAEditViewType=WelcomePage.MainPage
+
+[View1]
 CustomEditViewType=TEditView
 Module=C:\PROJECT+\GitHub\JSONValueHelper\example\JSONObjectHelper.dpr
 CursorX=1
@@ -81,16 +90,12 @@ Elisions=
 Bookmarks=
 EditViewName=C:\PROJECT+\GitHub\JSONValueHelper\example\JSONObjectHelper.dpr
 
-[View1]
-CustomEditViewType=TOTACustomEditView
-OTAEditViewType=WelcomePage.MainPage
-
 [View2]
 CustomEditViewType=TEditView
 Module=C:\PROJECT+\GitHub\JSONValueHelper\example\UFrmMain.pas
-CursorX=33
-CursorY=97
-TopLine=75
+CursorX=46
+CursorY=114
+TopLine=66
 LeftCol=1
 Elisions=
 Bookmarks=
@@ -98,10 +103,21 @@ EditViewName=C:\PROJECT+\GitHub\JSONValueHelper\example\UFrmMain.pas
 
 [View3]
 CustomEditViewType=TEditView
+Module=c:\program files (x86)\embarcadero\studio\23.0\source\rtl\common\System.JSON.pas
+CursorX=35
+CursorY=626
+TopLine=612
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=c:\program files (x86)\embarcadero\studio\23.0\source\rtl\common\System.JSON.pas
+
+[View4]
+CustomEditViewType=TEditView
 Module=C:\PROJECT+\GitHub\JSONValueHelper\example\JSONHelper.pas
-CursorX=25
-CursorY=95
-TopLine=73
+CursorX=27
+CursorY=48
+TopLine=1
 LeftCol=1
 Elisions=
 Bookmarks=
@@ -181,11 +197,11 @@ State=0
 Left=0
 Top=0
 Width=2000
-Height=8442
+Height=8740
 MaxLeft=-1
 MaxTop=-1
 ClientWidth=2000
-ClientHeight=8442
+ClientHeight=8740
 TBDockHeight=5904
 LRDockWidth=2349
 Dockable=1
@@ -194,11 +210,11 @@ StayOnTop=0
 [MessageView]
 PercentageSizes=1
 Create=1
-Visible=1
+Visible=0
 Docked=1
 State=0
-Left=0
-Top=28
+Left=8
+Top=1060
 Width=9917
 Height=1385
 MaxLeft=-1
@@ -219,11 +235,11 @@ State=0
 Left=0
 Top=0
 Width=2000
-Height=8712
+Height=9010
 MaxLeft=-1
 MaxTop=-1
 ClientWidth=2000
-ClientHeight=8712
+ClientHeight=9010
 TBDockHeight=7154
 LRDockWidth=2000
 Dockable=1
@@ -238,21 +254,16 @@ State=0
 Left=0
 Top=425
 Width=1896
-Height=3183
+Height=4683
 MaxLeft=-1
 MaxTop=-1
 ClientWidth=1896
-ClientHeight=3183
-TBDockHeight=9010
+ClientHeight=4683
+TBDockHeight=8731
 LRDockWidth=1896
 Dockable=1
 StayOnTop=0
 SplitPos=111
-
-[PropInspDesignerSelection]
-ArrangeBy=Name
-SelectedItem=Caption,
-ExpandedItems=Constraints=0
 
 [frmDesignPreview]
 PercentageSizes=1
@@ -279,8 +290,8 @@ Create=1
 Visible=0
 Docked=1
 State=0
-Left=-250
-Top=-397
+Left=-8
+Top=-8
 Width=1849
 Height=3144
 MaxLeft=-1
@@ -734,14 +745,14 @@ Create=1
 Visible=0
 Docked=1
 State=0
-Left=4
-Top=29
+Left=1502
+Top=125
 Width=2000
-Height=8712
+Height=9010
 MaxLeft=-1
 MaxTop=-1
 ClientWidth=2000
-ClientHeight=8712
+ClientHeight=9010
 TBDockHeight=9010
 LRDockWidth=2000
 Dockable=1
@@ -766,7 +777,7 @@ MaxLeft=-1
 MaxTop=-1
 ClientWidth=1896
 ClientHeight=3471
-TBDockHeight=9010
+TBDockHeight=8731
 LRDockWidth=1896
 Dockable=1
 StayOnTop=0
@@ -782,14 +793,14 @@ Create=1
 Visible=0
 Docked=1
 State=0
-Left=4
-Top=29
+Left=1502
+Top=125
 Width=2000
-Height=8712
+Height=9010
 MaxLeft=-1
 MaxTop=-1
 ClientWidth=2000
-ClientHeight=8712
+ClientHeight=9010
 TBDockHeight=9010
 LRDockWidth=2000
 Dockable=1
